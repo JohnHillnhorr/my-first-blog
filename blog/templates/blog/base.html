@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+<head>
+
+        <title>Ameircan TV Series</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+
+
+
+<h1><center style ="color:blue">Ameircan TV Series</center></h1>
+
+<center>
+
+<img src="https://i.pinimg.com/originals/a4/b9/de/a4b9de044d3967643e70a87827523ef2.jpg" width="300" height="400"> &nbsp;&nbsp;&nbsp;
+<img src="https://i.pinimg.com/originals/cb/34/84/cb34849b640919ca633098326b26da88.jpg" width="300" height="400"> 
+<img src="https://onlineacademiccommunity.uvic.ca/sociologyofreligion/wp-content/uploads/sites/2813/2019/12/supernatural.jpg" width="300" height="400"> &nbsp;&nbsp;&nbsp;
+<img src="https://i.pinimg.com/originals/9a/d4/6a/9ad46a71852ca314f9f70d04626d0c3c.jpg" width="300" height="400"> &nbsp;&nbsp;&nbsp;
+<img src="https://static.wikia.nocookie.net/peaky-blinders/images/d/df/Ada5.jpg" width="300" height="400"> &nbsp;&nbsp;&nbsp;
+<img src="https://static.wikia.nocookie.net/peaky-blinders/images/8/8a/Pollys4.jpg" width="300" height="400"> &nbsp;&nbsp;&nbsp;
+<img src="https://static.wikia.nocookie.net/peaky-blinders/images/e/eb/Michael4.jpg" width="300" height="400"> &nbsp;&nbsp;&nbsp;
+
+ </center>
+
+   
+    <div class="page-header">
+        <h1><a href="/">TV SERIES</a></h1>
+    </div>
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
